@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/restaurant-logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>    
+    <title>Restoranku</title>
+</head>
+<body>
+    <a href="#cari-restoran" id="skip-link" class="skip-link">Menuju ke konten</a>
+
+    <header>
+        <nav>
+            <div>
+                <label class="logo">Restoranku.com</label>
+            </div>
+
+            <div>
+                <button id="icon" title="App Drawer">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="nav-ul" class="hide">
+                    <li><a class="active" href="/">Home</a></li>
+                    <li><a href="#">Favorite</a></li>
+                    <li><a href="https://github.com/antoniluthfi" target="_blank">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- go to top -->
+            <button id="go-to-top" title="Go to top">
+                <i class="fas fa-angle-double-up"></i>
+            </button>
+    
+            <!-- jumbotron -->
+            <div class="jumbotron">
+                <div class="jumbotron-inner">
+                    <h2>Selamat Datang Di Restoranku.com</h2>
+                    <p>Di sini, kamu bisa temukan informasi mengenai berbagai restoran dari berbagai tempat.</p>
+                    
+                    <div class="jumbotron-btn">
+                        <button id="selengkapnya" class="btn-one" title="Lihat Selengkapnya">Selengkapnya</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- cari restoran -->
+            <div class="content-restoran">
+                <div class="title-cari-restoran">
+                    <h1 id="cari-restoran">Cari restoran favorit anda disini</h1>
+                </div>
+    
+                <div class="input-cari-restoran-wrapper">
+                    <input type="text" name="cari-restoran" id="input-cari-restoran" placeholder="Cari restoran anda disini...">
+                    <i class="fas fa-search" id="icon-cari-restoran"></i>
+                </div>
+        
+                <div class="cards" id="card-wrapper"></div>
+            </div>
+    
+            <!-- modal -->
+        </div>
+
+        <div class="popup center">
+            <div class="popup-image"></div>
+            <div class="popup-title"></div>
+            <div class="popup-description"></div>
+
+            <div class="dismiss-wrapper">
+                <button type="button" class="dismiss-btn" id="dismiss-popup" title="Tutup">Tutup</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Restoranku.com</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+
+            <ul class="socials">
+                <li>
+                    <a href="https://www.facebook.com/lintangluthfi.antoni.9" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/antoni_luthfi3" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2021 - Restoranku.com</p>
+        </div>
+    </footer>
+</body>
+</html>
